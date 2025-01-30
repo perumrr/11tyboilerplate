@@ -1,7 +1,7 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: 'Orbitron', sans-serif; 
+    color: #D1D9E6; 
+    background: #000022;
     padding: 0 40px;
     text-align: center;
     line-height: 1.6;
@@ -11,12 +11,12 @@ nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background: #1E1E2F; 
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); 
 }
 
 nav ul li a:hover {
-    color: #FDBB2D;
+    color: #4A90E2; 
     text-decoration: underline;
     transition: all 0.3s ease;
 }
@@ -25,23 +25,25 @@ h1 {
     font-size: 6em;
     letter-spacing: -2px;
     margin: 20px 0;
+    color: #A2A8B4; 
 }
 
 h2 {
     font-size: 2em;
     margin: 20px 0;
-    color: #FDBB2D;
+    color: #66B3FF; 
 }
 
 p {
     font-size: 1.2em;
     margin: 20px auto;
     max-width: 600px;
+    color: #A2A8B4; 
 }
 
 button {
-    background-color: #FDBB2D;
-    color: #212431;
+    background-color: #4A90E2; 
+    color: #000022; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -51,8 +53,8 @@ button {
 }
 
 button:hover {
-    background-color: #EAE8FF;
-    color: #2D3142;
+    background-color: #D1D9E6; 
+    color: #000022;
     transition: all 0.3s ease;
 }
 
@@ -60,50 +62,52 @@ img {
     border-radius: 10px;
     max-width: 100%;
     height: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); 
 }
 
 footer {
     margin-top: 50px;
     padding: 10px 0;
-    background-color: #212431;
-    color: #EAE8FF;
+    background-color: #1E1E2F;
+    color: #D1D9E6;
     font-size: 0.9em;
-    border-top: 1px solid #FDBB2D;
+    border-top: 1px solid #4A90E2;
 }
+
 footer a {
-    color: #FDBB2D;
+    color: #4A90E2;
     text-decoration: none;
 }
+
 footer a:hover {
     text-decoration: underline;
 }
 
 ul {
-    list-style-type: none; 
-    padding: 0; 
+    list-style-type: none;
+    padding: 0;
 }
 
 ul li {
-    margin: 10px 0; 
+    margin: 10px 0;
 }
 
 ul li a {
     text-decoration: none;
-    color: #EAE8FF;
+    color: #D1D9E6;
     font-size: 1.2em;
 }
 
 ul li a:hover {
-    text-decoration: underline; 
-    color: #F0A500; 
+    text-decoration: underline;
+    color: #4A90E2;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #EAE8FF;
+    color: #D1D9E6;
     font-size: 1.2em;
-    padding: 5px 20px; 
-    display: inline-block; 
+    padding: 5px 20px;
+    display: inline-block;
     text-align: center;
 }
